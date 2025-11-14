@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">RiverShop</string>
+
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <string name="tipoVendedor">Vendedor</string>
+    <string name="tipoCliente">Cliente</string>
+
+    <!--cliente-->
+    <string name="op_inicio_c">Inicio</string>
+    <string name="op_mi_perfil_c">Mi perfil</string>
+    <string name="op_cerrar_c">Cerrar Sesion</string>
+
+
+    <!--navegationVende-->
+
+    <string name="op_inicio_v">Inicio</string>
+    <string name="op_categorias_v">Categorias</string>
+    <string name="op_mi_tienda_v">Mi Tienda</string>
+    <string name="op_resenia_v">Reseñas</string>
+    <string name="op_cerrar_sesion_v">Cesrrar Sesion</string>
+
+    <!--nav vendedor-->
+    <string name="op_mis_productos_v">Mis productos</string>
+    <string name="op_mis_ordenes_v">Mis ordenes</string>
+
+    <!--boton nava cliente-->
+    <string name="op_tienda_c">Tienda</string>
+    <string name="op_mis_ordenes_c">Mis ordenes</string>
+
+
+    <string name="txt_bienvenida">Bienvenido(a)</string>
+
+    <!-- registro v -->
+    <string name="txtRegistroV">Registro de vendedor</string>
+    <string name="etNombresV">Nombres Completos</string>
+    <string name="etEmail">Email</string>
+    <string name="etPassword">Password</string>
+    <string name="etCPassword">Confirmar Password</string>
+    <string name="btnRegistrarV">Registrarme</string>
+
+    !--Registri Cliente-->
+    <string name="txtRegistroC">Registro de cliente</string>
+    <string name="etNombresC">Nombres completos</string>
+    <string name="btnRegistrarC">Registrarme</string>
+
+    <!-- login de vendedor -->
+    <string name="txtLoginV">Iniciar Sesion</string>  <!-- cambiar a futuro x v -->
+    <string name="btnLoginV">Ingresar</string>
+    <string name="txtNoCuenta">¿No tienes una cuenta?</string>
+    <string name="tvRegistrarV">Registrarme</string>
+
+    <!-- login de cliente -->
+    <string name="txtLoginC">Iniciar Sesion</string>  <!-- cambiar a futuro x v -->
+    <string name="btnLoginC">Ingresar</string>
+    <string name="tvRegistrarC">Registrarme</string>
+
+    <!-- productos -->
+
+    <string name="txtAgregarProductos">Agregar Productos</string>
+    <string name="etNombreP">Nombre del producto</string>
+    <string name="etDescripcionP">Descripcion</string>
+    <string name="Categoria">Categoria</string>
+    <string name="etPrecio">Precio</string>
+    <string name="btnAgregarProducto">Agregar Producto</string>
+    <string name="desc_lista_imagenes">Lista de imágenes seleccionadas del producto</string>
+
+    <!-- categorias -->
+    <string name="et_categoria">ingrese la categoria</string>
+    <string name="btnAgregarcat">Agregar Categoria</string>
+
+    <string name="item_nombre_c_v">Nombre de categoria</string>
+
+    <string name="item_nombre_p">Nombre Productos</string>
+    <string name="item_presio_p">00</string>
+
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pedidos">pedidos</string>
+    <string name="descripcion_boton">Botón principal</string>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".vendedor.Nav_fragment_vendedor.FragmentInicioV">
+
+
+    <FrameLayout
+        android:id="@+id/bottomFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomAppBar"
+        android:background="@android:color/white"
+        />
+
+
+
+    <!-- Barra inferior -->
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:fabAlignmentMode="center"
+        app:contentInsetStart="0dp"
+        app:contentInsetEnd="0dp"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="20dp">
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:elevation="0dp"
+            app:menu="@menu/bottom_nav_vendedor_menu"
+            app:labelVisibilityMode="labeled" />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <!-- Botón flotante central -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addfab"
+        app:layout_anchor="@id/bottomAppBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:contentDescription="@string/descripcion_boton"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="30dp"
+        app:backgroundTint="@color/gris"
+        app:tint="@android:color/white" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

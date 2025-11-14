@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SeleccionarTipoActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/tienda_online"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <!--tipo Vendedor-->
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tipoVendedor"
+            android:backgroundTint="@color/azul"
+            android:text="@string/tipoVendedor"
+            app:cornerRadius="8dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+
+            android:src="@drawable/idfacial"/>
+
+            <!--tipo cliente-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tipoCliente"
+            android:backgroundTint="@color/azul"
+            android:text="@string/tipoCliente"
+            app:cornerRadius="8dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

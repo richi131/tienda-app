@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".vendedor.Bottom_Nav_fragment_vendedor.FragmentCategoriasV">
+
+   <androidx.appcompat.widget.LinearLayoutCompat
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="15dp"
+       android:orientation="vertical">
+
+       <androidx.appcompat.widget.AppCompatImageView
+           android:id="@+id/imgcategorias"
+           android:src="@drawable/foto"
+           android:layout_gravity="center"
+           android:layout_marginBottom="15dp"
+           android:layout_width="100dp"
+           android:layout_height="100dp"/>
+       <!--Nombre cat-->
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="30dp"
+           app:errorTextColor="@color/black"
+           app:startIconDrawable="@drawable/ico_orden"
+           android:layout_marginEnd="30dp">
+
+
+           <EditText
+               android:id="@+id/et_categoria"
+               android:hint="@string/et_categoria"
+               android:inputType="textCapWords"
+               android:textColor="@color/black"
+               android:layout_height="wrap_content"
+               android:layout_width="match_parent"/>
+
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <!--Nombre agregar  cat-->
+       <com.google.android.material.button.MaterialButton
+           android:id="@+id/btnAgregarcat"
+           android:text="@string/btnAgregarcat"
+           app:cornerRadius="8dp"
+           android:textAllCaps="true"
+           android:layout_marginTop="15dp"
+           android:layout_gravity="center"
+           android:backgroundTint="@color/azul"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/rv_categorias"
+           android:layout_width="match_parent"
+           android:layout_margin="5dp"
+           tools:listitem="@layout/item_categoriaa_v"
+           app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+           android:layout_height="match_parent"/>
+
+   </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</RelativeLayout>
