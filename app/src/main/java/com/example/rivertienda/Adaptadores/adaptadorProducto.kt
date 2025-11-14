@@ -48,7 +48,7 @@ class adaptadorProducto : Adapter<adaptadorProducto.HolderProducto> {
         cargarPrimeraImg(modeloProducto,holder)
 
         holder.item_nombre_p.text ="{$nombre}"
-        holder.item_presio_p.text ="{$precio}"
+        holder.item_presio_p.text ="{$precio}${" Cop"}"
 
 
     }
